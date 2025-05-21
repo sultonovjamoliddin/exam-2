@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <header class="fixed h-[100px] w-full bg-[red] flex justify-center items-center">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a class="" href="">
+                <img class="" src="./images/Frame-64.svg" alt="lgo">
+            </a>
+
+            <ul class="hidden md:flex items-center gap-[40px] ">
+                <li>
+                    <a class="text-[white]" href="#">Menu</a>
+                </li>
+
+                <li>
+                    <a class="text-[white]" href="#">Menu</a>
+                </li>
+
+                <li>
+                    <a class="text-[white]" href="#">Menu</a>
+                </li>
+
+                <li>
+                    <a class="text-[white]" href="#">Menu</a>
+                </li>
+
+                <li>
+                    <button class="w-[131px] h-[38px] rounded-[100px] border-[1px] border-white-400 text-[white]">Log
+                        in</button>
+                </li>
+            </ul>
+
+            <button id="navbar-open" class="border-hidden flex items-center justify-center md:hidden"> <img
+                    src="./images/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt=""> </button>
+        </nav>
+    </header>
+
+    <div id="navbar-responsive"class="w-full h-full fixed top-0 left-[-100%] bg-red z-20 transition-all duration-300 ease-in-out flex bg-[red]">
+
+        <ul class="flex items-center gap-[40px] flex-col m-[auto]">
+            <li>
+                <a id="navbar-close" class="text-[50px] text-[white]" href="#">Menu</a>
+            </li>
+
+            <li>
+                <a id="navbar-close" class="text-[50px] text-[white]" href="#">Menu</a>
+            </li>
+
+            <li>
+                <a id="navbar-close" class="text-[50px] text-[white]" href="#">Menu</a>
+            </li>
+
+            <li>
+                <a id="navbar-close" class="text-[50px] text-[white]" href="#">Menu</a>
+            </li>
+
+            <li>
+                <button id="navbar-close" class="w-[131px] h-[38px] rounded-[100px] border-[1px] border-white-400 text-[white]">Log
+                    in</button>
+            </li>
+        </ul>
+
+        <button id="navbar-close" class="absolute top-4 right-4"><img src="./images/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt=""></button>
+    </div>
+
+    <main>
+        <section class="bg-[red] min-h-[1021px] pt-[150px] ">
+            <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-8 px-4">
+                <div class="">
+                    <h3 class="text-[23px] text-[white] pb-[25px]">Chase the new Flavour</h3>
+                    <h1 class="text-[90px] text-[white] pb-[20px]">The key to Fine dining</h1>
+                    <p class="text-[16px text-[white] pb-[40px]">Sit tellus lobortis sed senectus vivamus molestie.
+                        Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus
+                    </p>
+                    <button
+                        class="w-[173px] h-[44px] rounded-[100px] border-[1px] border-white-400 text-[white]">Explore
+                        Menu</button>
+                </div>
+
+                <div class="max-w-[827px] w-full h-full">
+                    <img class="w-[100%] h-[100%]" src="./images/klipartz-2.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
