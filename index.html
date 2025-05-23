@@ -12,7 +12,7 @@
 
 <body>
     <header class="fixed h-[100px] w-full bg-[red] flex justify-center items-center">
-        <nav class="container mx-auto flex justify-between items-center">
+        <nav class="container mx-auto flex justify-between items-center px-4">
             <a class="" href="">
                 <img class="" src="./images/Frame-64.svg" alt="lgo">
             </a>
@@ -49,19 +49,19 @@
 
         <ul class="flex items-center gap-[40px] flex-col m-[auto]">
             <li>
-                <a id="navbar-close" class="text-[50px] text-[white]" href="#">Menu</a>
+                <a id="navbar-close" class="text-[20px] text-[white]" href="#">Menu</a>
             </li>
 
             <li>
-                <a id="navbar-close" class="text-[50px] text-[white]" href="#">Menu</a>
+                <a id="navbar-close" class="text-[20px] text-[white]" href="#">Menu</a>
             </li>
 
             <li>
-                <a id="navbar-close" class="text-[50px] text-[white]" href="#">Menu</a>
+                <a id="navbar-close" class="text-[20px] text-[white]" href="#">Menu</a>
             </li>
 
             <li>
-                <a id="navbar-close" class="text-[50px] text-[white]" href="#">Menu</a>
+                <a id="navbar-close" class="text-[20px] text-[white]" href="#">Menu</a>
             </li>
 
             <li>
@@ -70,7 +70,7 @@
             </li>
         </ul>
 
-        <button id="navbar-close" class="absolute top-4 right-4"><img src="./images/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt=""></button>
+        <button id="navbar-closes" class="absolute top-4 right-4"><img src="./images/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt=""></button>
     </div>
 
     <main>
@@ -78,7 +78,7 @@
             <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-8 px-4">
                 <div class="">
                     <h3 class="text-[23px] text-[white] pb-[25px]">Chase the new Flavour</h3>
-                    <h1 class="text-[90px] text-[white] pb-[20px]">The key to Fine dining</h1>
+                    <h1 class="text-[50px] text-[white] pb-[20px] lg:text-[90px]  ">The key to Fine dining</h1>
                     <p class="text-[16px text-[white] pb-[40px]">Sit tellus lobortis sed senectus vivamus molestie.
                         Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus
                     </p>
@@ -94,7 +94,20 @@
         </section>
     </main>
 
-    <footer></footer>
+    <footer class="bg-[red]">
+        <div class="container mx-auto">
+            <div class="max-w-full center bg-[red] px-[300px] py-[64px] text-center">
+                <h4 class="text-[white] text-[23px] pb-[25px]">Newsletter</h4>
+                <h1 class="text-[white] text-[48px] pb-[24px]">Subscribe to Our Newsletter</h1>
+                <p class="text-[white] text-[16px] pb-[64px]">And never miss latest Updates!</p>
+
+                <form class="flex gap-[32px]" action="">
+                    <input class="flex w-full rounded-[100px] bg-[red] border-white border-[2px] py-[12px] pl-[19px] text-[white]" type="email" placeholder="Email Address">
+                    <button class="flex items-center justify-center rounded-[100px] bg-[red] border-white border-[2px] w-[144px] h-[52px] text-[white]">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
 
     <script src="./js/main.js"></script>
 </body>
