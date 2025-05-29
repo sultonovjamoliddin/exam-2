@@ -7,11 +7,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <header class="fixed h-[100px] w-full bg-[red] flex justify-center items-center">
+    <header class="fixed h-[100px] z-10 w-full bg-[red] flex justify-center items-center">
         <nav class="container mx-auto flex justify-between items-center px-4">
             <a class="" href="">
                 <img class="" src="./images/Frame-64.svg" alt="lgo">
@@ -45,7 +54,8 @@
         </nav>
     </header>
 
-    <div id="navbar-responsive"class="w-full h-full fixed top-0 left-[-100%] bg-red z-20 transition-all duration-300 ease-in-out flex bg-[red]">
+    <div id="navbar-responsive"
+        class="w-full h-full fixed top-0 left-[-100%] bg-red z-20 transition-all duration-300 ease-in-out flex bg-[red]">
 
         <ul class="flex items-center gap-[40px] flex-col m-[auto]">
             <li>
@@ -65,12 +75,14 @@
             </li>
 
             <li>
-                <button id="navbar-close" class="w-[131px] h-[38px] rounded-[100px] border-[1px] border-white-400 text-[white]">Log
+                <button id="navbar-close"
+                    class="w-[131px] h-[38px] rounded-[100px] border-[1px] border-white-400 text-[white]">Log
                     in</button>
             </li>
         </ul>
 
-        <button id="navbar-closes" class="absolute top-4 right-4"><img src="./images/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt=""></button>
+        <button id="navbar-closes" class="absolute top-4 right-4"><img
+                src="./images/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt=""></button>
     </div>
 
     <main>
@@ -79,7 +91,7 @@
                 <div class="">
                     <h3 class="text-[23px] text-[white] pb-[25px]">Chase the new Flavour</h3>
                     <h1 class="text-[50px] text-[white] pb-[20px] lg:text-[90px]  ">The key to Fine dining</h1>
-                    <p class="text-[16px text-[white] pb-[40px]">Sit tellus lobortis sed senectus vivamus molestie.
+                    <p class="text-[16px] text-[white] pb-[40px]">Sit tellus lobortis sed senectus vivamus molestie.
                         Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus
                     </p>
                     <button
@@ -92,21 +104,112 @@
                 </div>
             </div>
         </section>
+
+        <section class="bg-gray-100 min-h-[734px] pt-[120px]">
+            <div class="container mx-auto">
+                <h1 class="text-[48px] text-[#BB2339]">Popular Dishes</h1>
+                <div id="team-carousel" class="owl-carousel owl-theme flex items-center">
+                    <div class="w-[310px] h-[396px] p-[20px] bg-[white] rounded-[14px]">
+                        <img class="pb-[10px]" src="./images/klipartz-1.png" alt="">
+                        <p class="text-center pb-[20px] text-[18px]">Barbecue Shish kebab Shashlik Skewer</p>
+                        <img class="w-[108px] h-[20px] pb-[20px]" src="./images/Group-134.svg" alt="">
+                        <p class="text-center text-[24px] text-[#BB2339]">$12.00</p>
+                    </div>
+                    <div class="w-[310px] h-[396px] p-[20px] bg-[white] rounded-[14px] ">
+                        <img class="pb-[10px]" src="./images/klipartz-1.png" alt="">
+                        <p class="text-center pb-[20px] text-[18px]">Barbecue Shish kebab Shashlik Skewer</p>
+                        <img class="w-[108px] h-[20px] pb-[20px]" src="./images/Group-134.svg" alt="">
+                        <p class="text-center text-[24px] text-[#BB2339]">$12.00</p>
+                    </div>
+                    <div class="w-[310px] h-[396px] p-[20px] bg-[white] rounded-[14px] ">
+                        <img class="pb-[10px]" src="./images/klipartz-1.png" alt="">
+                        <p class="text-center pb-[20px] text-[18px]">Barbecue Shish kebab Shashlik Skewer</p>
+                        <img class="w-[108px] h-[20px] pb-[20px]" src="./images/Group-134.svg" alt="tgdv">
+                        <p class="text-center text-[24px] text-[#BB2339]">$12.00</p>
+                    </div>
+                    <div class="w-[310px] h-[396px] p-[20px] bg-[white] rounded-[14px] ">
+                        <img class="pb-[10px]" src="./images/klipartz-1.png" alt="">
+                        <p class="text-center pb-[20px] text-[18px]">Barbecue Shish kebab Shashlik Skewer</p>
+                        <img class="w-[108px] h-[20px] pb-[20px]" src="./images/Group-134.svg" alt="">
+                        <p class="text-center text-[24px] text-[#BB2339]">$12.00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="contaainer mx-auto">
+
+                <div class="tab-content">
+                    <div class="bg-white rounded-xl shadow-md p-4 text-center">
+                        <img src="images/food1.jpg" alt="Dish" class="w-24 h-24 mx-auto object-contain mb-3">
+                        <h3 class="text-sm font-semibold text-gray-800 mb-1">Delicious Pizza</h3>
+                        <div class="flex justify-center text-yellow-400 text-sm mb-2">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span>
+                        </div>
+                        <p class="text-red-500 font-bold text-lg">$10.99</p>
+                    </div>
+
+                    <div id="tab1" class="tab-content grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
+                        <div class="bg-white rounded-xl shadow-md p-4 text-center">
+                            <img src="images/kebab.jpg" alt="Kebab" class="w-24 h-24 mx-auto object-contain mb-3">
+                            <h3 class="text-sm font-semibold text-gray-800 mb-1">Barbecue Kebab</h3>
+                            <div class="flex justify-center text-yellow-400 text-sm mb-2">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span
+                                    class="text-gray-300">★</span>
+                            </div>
+                            <p class="text-red-500 font-bold text-lg">$12.00</p>
+                        </div>
+
+                        <div class="bg-white rounded-xl shadow-md p-4 text-center">
+                            <img src="images/pizza.jpg" alt="Pizza" class="w-24 h-24 mx-auto object-contain mb-3">
+                            <h3 class="text-sm font-semibold text-gray-800 mb-1">Cheese Pizza</h3>
+                            <div class="flex justify-center text-yellow-400 text-sm mb-2">
+                                <span>★</span><span>★</span><span>★</span><span class="text-gray-300">★</span><span
+                                    class="text-gray-300">★</span>
+                            </div>
+                            <p class="text-red-500 font-bold text-lg">$9.50</p>
+                        </div>
+
+                        <div class="bg-white rounded-xl shadow-md p-4 text-center">
+                            <img src="images/burger.jpg" alt="Burger" class="w-24 h-24 mx-auto object-contain mb-3">
+                            <h3 class="text-sm font-semibold text-gray-800 mb-1">Chicken Burger</h3>
+                            <div class="flex justify-center text-yellow-400 text-sm mb-2">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                            <p class="text-red-500 font-bold text-lg">$11.75</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
     </main>
 
-    <footer class="bg-[red]">
-        <div class="container mx-auto">
-            <div class="w-full bg-[red] py-[64px] text-center rounded-[20px] mt-[-100px] px-[10px]">
-                <h4 class="text-[white] text-[23px] pb-[25px]">Newsletter</h4>
-                <h1 class="text-[white] text-[48px] pb-[24px]">Subscribe to Our Newsletter</h1>
-                <p class="text-[white] text-[16px] pb-[64px]">And never miss latest Updates!</p>
+    <footer>
+        <div class="bg-[red]">
+            <div class="container mx-auto">
 
-                <form class="flex gap-[32px]" action="">
-                    <input class="flex w-full rounded-[100px] bg-[red] border-white border-[2px] py-[12px] pl-[19px] text-[white]" type="email" placeholder="Email Address">
-                    <button class="flex items-center justify-center rounded-[100px] bg-[red] border-white border-[2px] w-[144px] h-[52px] text-[white]">Subscribe</button>
-                </form>
-            </div>
-                <ul class="flex flex-col lg:grid grid-cols-2 xl:grid-cols-3 justify-between items-center pt-[100px] gap-[123px]">
+                <div class="container mx-auto">
+                    <div class="w-full bg-[red] py-[64px] text-center rounded-[20px] mt-[-50px] px-[10px]">
+                        <h4 class="text-[white] text-[23px] pb-[25px]">Newsletter</h4>
+                        <h1 class="text-[white] text-[48px] pb-[24px]">Subscribe to Our Newsletter</h1>
+                        <p class="text-[white] text-[16px] pb-[64px]">And never miss latest Updates!</p>
+
+                        <form class="flex gap-[32px]" action="">
+                            <input
+                                class="flex w-full rounded-[100px] bg-[red] border-white border-[2px] py-[12px] pl-[19px] text-[white]"
+                                type="email" placeholder="Email Address">
+                            <button
+                                class="flex items-center justify-center rounded-[100px] bg-[red] border-white border-[2px] w-[144px] h-[52px] text-[white]">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+
+                <ul
+                    class="flex flex-col lg:grid grid-cols-2 xl:grid-cols-3 justify-between items-center pt-[100px] gap-[123px]">
                     <div class="text-center text-[white]">
                         <h1 class="text-[32px] pb-[24px]">Contact Us</h1>
                         <p class="pb-[10px]">9 W 53rd St, London, NY 10019, UK</p>
@@ -123,7 +226,9 @@
                             <img class="w-full h-full" src="./images/Frame-64.svg" alt="">
                         </div>
                         <li>
-                            <a class="flex flex-col text-center" href="#">"The best way to find yourself is to lose yourself in the <span>service of others.”</span></a>
+                            <a class="flex flex-col text-center" href="#">"The best way to find yourself is to lose
+                                yourself
+                                in the <span>service of others.”</span></a>
                         </li>
                     </div>
 
@@ -154,8 +259,16 @@
                 </div>
 
                 <h1 class="text-center pb-[40px] text-[white]">2022 Pop online. All Rights reserved.</h1>
+            </div>
         </div>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script src="./js/main.js"></script>
 </body>
