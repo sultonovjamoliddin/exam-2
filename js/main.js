@@ -33,7 +33,7 @@ $(document).ready(function () {
       0: { items: 1 },
       600: { items: 2 },
       1000: { items: 3 },
-      1600: { items: 4 },
+      1200: { items: 4 },
     },
   });
 });
@@ -47,13 +47,13 @@ tabButtons.forEach((button) => {
   button.addEventListener("click", () => {
     // Active tabni o'chirish
     tabButtons.forEach((btn) => {
-      btn.classList.remove("bg-blue-500", "text-white", "active");
+      btn.classList.remove("bg-red-500", "text-white", "active");
       btn.classList.add("bg-gray-200", "text-gray-700");
     });
 
     // Yangi aktiv tab
-    button.classList.remove("bg-gray-200", "text-gray-700");
-    button.classList.add("bg-blue-500", "text-white");
+    button.classList.remove("bg-red-200", "text-gray-700");
+    button.classList.add("bg-red-500", "text-white");
 
     // Barcha tab contentni yashirish
     tabContents.forEach((content) => content.classList.add("hidden"));
